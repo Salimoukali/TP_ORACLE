@@ -1,0 +1,51 @@
+
+SQL*Loader: Release 19.0.0.0.0 - Production on Wed Jan 12 04:36:48 2022
+Version 19.3.0.0.0
+
+Copyright (c) 1982, 2019, Oracle and/or its affiliates.  All rights reserved.
+
+Control File:   /home/oracle/cfg/employee.ctl
+Data File:      /home/oracle/data/employee.txt
+  Bad File:     /home/oracle/cfg/employee.bad
+  Discard File:  none specified
+ 
+ (Allow all discards)
+
+Number to load: ALL
+Number to skip: 0
+Errors allowed: 50
+Bind array:     250 rows, maximum of 1048576 bytes
+Continuation:    none specified
+Path used:      Conventional
+
+Table EMPLOYEE, loaded from every logical record.
+Insert option in effect for this table: INSERT
+
+   Column Name                  Position   Len  Term Encl Datatype
+------------------------------ ---------- ----- ---- ---- ---------------------
+ID                                  FIRST     *   ,       CHARACTER            
+NAME                                 NEXT     *   ,       CHARACTER            
+DEPT                                 NEXT     *   ,       CHARACTER            
+SALARY                               NEXT     *   ,       CHARACTER            
+
+
+Table EMPLOYEE:
+  6 Rows successfully loaded.
+  0 Rows not loaded due to data errors.
+  0 Rows not loaded because all WHEN clauses were failed.
+  0 Rows not loaded because all fields were null.
+
+
+Space allocated for bind array:                 258000 bytes(250 rows)
+Read   buffer bytes: 1048576
+
+Total logical records skipped:          0
+Total logical records read:             6
+Total logical records rejected:         0
+Total logical records discarded:        0
+
+Run began on Wed Jan 12 04:36:48 2022
+Run ended on Wed Jan 12 04:36:49 2022
+
+Elapsed time was:     00:00:00.81
+CPU time was:         00:00:00.03
