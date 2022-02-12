@@ -1,0 +1,20 @@
+
+SQL*Plus: Release 19.0.0.0.0 - Production on Sat Feb 12 07:20:59 2022
+Version 19.3.0.0.0
+
+Copyright (c) 1982, 2019, Oracle.  All rights reserved.
+
+Last Successful login time: Sat Feb 12 2022 07:19:26 -08:00
+
+Connected to:
+Oracle Database 19c Enterprise Edition Release 19.0.0.0.0 - Production
+Version 19.3.0.0.0
+
+SQL> 
+Session altered.
+
+SQL> 
+Table truncated.
+
+SQL> Disconnected from Oracle Database 19c Enterprise Edition Release 19.0.0.0.0 - Production
+Version 19.3.0.0.0
